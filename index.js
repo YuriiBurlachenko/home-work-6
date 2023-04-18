@@ -62,16 +62,16 @@ switch (true) {
     break;
   case year !== null && town === null && sport === null:
     alert(`
-      ${'Ваш вік ставить:' + ' ' + resultYear}`);
+      ${'Ваш вік становить:' + ' ' + resultYear}`);
     break;
   case year !== null && town === null && sport !== null:
     alert(`
-    ${'Ваш вік ставить:' + ' ' + resultYear},
+    ${'Ваш вік становить:' + ' ' + resultYear},
     ${resultSport}`);
     break;
   case year !== null && town !== null && sport === null:
     alert(`
-    ${'Ваш вік ставить:' + ' ' + resultYear},
+    ${'Ваш вік становить:' + ' ' + resultYear},
     ${resultTown}`);
     break;
   case year === null && town === null && sport === null:
@@ -80,7 +80,7 @@ switch (true) {
     break;
   default:
     alert(`
-    ${'Ваш вік ставить:' + ' ' + resultYear},
+    ${'Ваш вік становить:' + ' ' + resultYear},
     ${resultTown},
     ${resultSport}`);
 }
